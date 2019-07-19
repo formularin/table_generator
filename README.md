@@ -20,6 +20,8 @@ pip install table_generator
 
 ## Usage:
 
+### generate_html
+
 Args:
 
 `data` (list) - 2D list containing data organized into rows
@@ -39,8 +41,3 @@ from table_generator import generate_html
 html_table = generate_html('data.csv', False, True, True, True, 
                            {"class": "table", "id": "data-table"})
 ```
-
-## Dependencies
-
-Requires Python 3 pre-installed.
-lxml package dependency is installed during pip installation.
