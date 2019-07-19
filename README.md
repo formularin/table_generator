@@ -1,6 +1,6 @@
-# table-generator
+# Table Generator
 
-Python package for generating html code for tables from csv files.
+Python package for generating html code for tables from csv files. View Documentation at <https://sites.google.com/view/arin-khare/programming/table_generaton>
 
 ## Installation
 
@@ -14,7 +14,7 @@ git clone https://github.com/lol-cubes/table_generator.git
 
 ### Installl Using pip
 
-```pip
+```bash
 pip install table_generator
 ```
 
