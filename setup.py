@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="table_generator",
-    version="0.0.1",
+    version="0.0.2",
     author="Arin Khare",
     author_email="arinmkhare@gmail.com",
     description="Generates code for html table from csv files",

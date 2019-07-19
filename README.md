@@ -1,4 +1,4 @@
-# table-generator
+# Table Generator
 
 Python package for generating html code for tables from csv files.
 
