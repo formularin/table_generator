@@ -4,3 +4,4 @@ venv
 Pipfile
 Pipfile.lock
 build
+table_generator.egg-info
