@@ -1,1 +1,6 @@
 .DS_Store
+table_generator/__pycache__
+venv
+Pipfile
+Pipfile.lock
+build
