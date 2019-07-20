@@ -15,11 +15,11 @@ TH = '<th>%s</th>'
 TD = '<td>%s</td>'
 
 
-def generate_html(data, complete_file, header, pretty, attrs=False):
+def generate_html(file, complete_file, header, pretty, attrs=False):
     """Generates code for html table from self.data
     
     Args:
-        data (list) -- 2D list containing data organized into rows
+        file (str) -- path to file containing csv table
         complete_file (bool) -- whether or not to add html elements to make code function as a separate file.
         header (bool) -- whether or not to turn first row of csv values into <th> tags
         pretty (bool) - whether or not to prettify the output code
@@ -28,6 +28,9 @@ def generate_html(data, complete_file, header, pretty, attrs=False):
     Returns:
         str -- html code for table element containing data from csv file
     """
+
+    with open(file, 'r') as f:
+        data = [row.split(',') for row in f.read().split('\n')]
 
     table_children = ''  # rows to be added here
     

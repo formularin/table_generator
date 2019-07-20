@@ -24,15 +24,15 @@ pip install table_generator
 
 Args:
 
-`data` (list) - 2D list containing data organized into rows
+`file` (str) - path to file containing csv table
 
-`complete_file` (bool) -  whether or not to add html elements to make code function as a separate file.
+`complete_file` (bool) -  whether or not to add html elements to make code function as a separate file
 
 `header` (bool) - whether or not to turn first row of csv values into `<th>` tags
 
 `pretty` (bool) - whether or not to prettify the output code
 
-`attrs` (dict) - html attributes mapped to corresponding values.
+`attrs` (dict) - html attributes mapped to corresponding values
 
 Example usage:
 ```python
