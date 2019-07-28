@@ -2,3 +2,4 @@
 table_generator/__pycache__
 build
 table_generator.egg-info
+dist
