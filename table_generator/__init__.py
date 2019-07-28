@@ -15,7 +15,7 @@ TH = '<th>%s</th>'
 TD = '<td>%s</td>'
 
 
-def generate_html(file, complete_file, header, pretty, attrs=False):
+def generate_html(file, complete_file=True, header=True, pretty=True, attrs=False):
     """Generates code for html table from self.data
     
     Args:
